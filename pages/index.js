@@ -61,7 +61,7 @@ const Home = () => {
       w-full h-full absolute mix-blend-color-dodge translate-z-0'>
       </div>
       {/* Particles */}
-      <ParticlesContainer />
+      <ParticlesContainer1 />
       {/* avatar img */}
       <motion.div 
         className='w-full h-full max-w-[637px] max-h-[578px] absolute
