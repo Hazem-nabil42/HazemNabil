@@ -47,7 +47,7 @@ const Contact = () => {
               max-w-[170px] px-8 transition-all duration-300 flex items-center justify-center
               overflow-hidden hover:border-accent group '>
               <span className='group-hover:-translate-y-[120%]
-              group-hover:opacity-0 transition-all duration-500'> Let's talk </span>
+              group-hover:opacity-0 transition-all duration-500'> Lets talk </span>
               <BsArrowRight 
                 className='-translate-y-[120%] opacity-0 group-hover:flex
                 group-hover:-translate-y-0 group-hover:opacity-100 transition-all
