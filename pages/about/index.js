@@ -30,23 +30,23 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <FaWordpress />,
-          <FaNodeJs />,
-          <SiFramer />,
+          <FaHtml5 key={FaHtml5} />,
+          <FaCss3 key={FaCss3} />,
+          <FaJs key={FaJs} />,
+          <FaReact key={FaReact} />,
+          <SiNextdotjs key={SiNextdotjs} />,
+          <FaWordpress key={FaWordpress} />,
+          <FaNodeJs key={FaNodeJs} />,
+          <SiFramer key={SiFramer} />,
         ],
       },
       {
         title: 'UI/UX Design',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma key={FaFigma}/>, <SiAdobexd key={SiAdobexd} />, <SiAdobephotoshop key={SiAdobephotoshop} />],
       },
       {
         title: 'Presentation skills',
-        icons: [<PiAddressBook />],
+        icons: [<PiAddressBook key={PiAddressBook} />],
       },
       {
         title: 'Computer Architecture & Operating System',
@@ -54,7 +54,7 @@ const aboutData = [
       },
       {
         title: 'Languages',
-        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        icons: [<FaFigma key={FaFigma} />, <SiAdobexd key={SiAdobexd} />, <SiAdobephotoshop key={SiAdobephotoshop} />],
       },
     ],
   },
