@@ -78,16 +78,19 @@ const aboutData = [
     title: 'experience',
     info: [
       {
-        title: 'Entuerprenur E-JUST Camp (Hult Prize)',
+        title: 'Entuerprenurship Simulation Camp (Hult Prize)',
         stage: '2022 - 2023',
       },
       {
-        title: 'Web Developer - Netherland Agency',
+        title: 'Web Development - Freelancer',
         stage: '2022 - 2024',
       },
       {
-        title: 'Intern - DEF Corporation',
-        stage: '2021 - 2022',
+        title: 'DEPI | NTI intern for AI and Data science',
+        stage: '2024',
+      },      {
+        title: 'Volunteer on JLPT exams at E-JUST',
+        stage: '2024',
       },
     ],
   },
@@ -96,11 +99,11 @@ const aboutData = [
     info: [
       {
         title: 'Computer Science - E-JUST University,',
-        stage: '2020',
+        stage: '2022',
       },
       {
-        title: 'Computer Science Diploma - AV Technical Institute',
-        stage: '2023',
+        title: 'AI and Data science Engineer',
+        stage: '2024',
       },
       // {
       //   title: 'Certified Graphic Designer - ABC Institute, Los Angeles, CA',
@@ -159,7 +162,7 @@ const About = () => {
             variants={fadeIn('right', 0.4)}
             initial="hidden"
             animate="show"
-            exit="hidden">10 years ago, I began freelancing as a developer. Since then Ihave done
+            exit="hidden">5 years ago, I began freelancing as a developer. Since then Ihave done
           remote work for agencies, counsulted for startups, and collaborated on
           digital products for business and consumer use. 
         </motion.p>
@@ -236,7 +239,7 @@ const About = () => {
                   index === itemIndex &&
                   'text-accent after:w-[100%] after:bg-accent after:transition-all duration-300'}
 
-                  cursor-pointer capitalize 
+                  cursor-pointer capitalize
                   xl:text-lg relative after:w-8 after:h-[2px]
                   after:bg-white after:absolute after:-bottom-1
                   after:left-0 `}

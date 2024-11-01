@@ -36,7 +36,7 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 '>
-              Hi Iam Hazem nabil software engineer and Full Stack developer Welcome to my website here you can find all my Projects CV qualifications etc..
+            Welcome! I’m a dedicated AI and Data Scientist engineer at E-JUST. on the web development field I have three years of hands-on experience as a Fullstack MERN developer, I bring a unique blend of analytical and development expertise to every project. My passion lies in leveraging data-driven insights and AI solutions to create impactful, user-centric applications. Explore my journey, projects, and insights as I continue to push the boundaries of technology and innovation.
           </motion.p>
           {/* Btn */}
           <div className='flex justify-center xl:hidden relative '>

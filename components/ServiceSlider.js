@@ -17,12 +17,12 @@ const serviceData = [
   {
     icon: <RxDesktop />,
     title: 'Web Development',
-    description: "I'm Fullstack web developer so that i can a complete websites from scratch bymyself",
+    description: "create full web application from scratch that achieve customer needs",
   },
   {
     icon: <RxPencil2 />,
     title: 'Design',
-    description: 'good taste in desgining to customers also in my services Website, mobileApp, menu, etc...',
+    description: 'Creative and modern design for your web application that have never done before',
   },
   {
     icon: <CiMicrochip />,
@@ -32,12 +32,12 @@ const serviceData = [
   {
     icon: <RxRocket />,
     title: 'SEO',
-    description: 'also I can improve your SEO for your website to reach maximum amount of customers and gain amazing profit',
+    description: 'one of the most important services that I deliver for my customers is Web application with respect to the search engine optimization',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'also I have a great knowlege in copywriting ',
+    title: 'UI/UX design',
+    description: 'Create modern and responsive web application on figma',
   },
 ];
 
