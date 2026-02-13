@@ -15,6 +15,9 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
     <Layout className='body'>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <AnimatePresence mode='wait'>
       <motion.div key={router.route} className='h-full'> {/* motion framer your animation appears for the routing pages */}
         <Transition />  {/* Transition has the delay time for the motion animation also has the layout of the loading screen  */}
