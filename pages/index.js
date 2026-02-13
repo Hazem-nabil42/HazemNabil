@@ -36,7 +36,10 @@ const Home = () => {
             animate='show'
             exit='hidden'
             className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16 '>
-            Welcome! I’m a dedicated AI and Data Scientist engineer at E-JUST. on the web development field I have three years of hands-on experience as a Fullstack MERN developer, I bring a unique blend of analytical and development expertise to every project. My passion lies in leveraging data-driven insights and AI solutions to create impactful, user-centric applications. Explore my journey, projects, and insights as I continue to push the boundaries of technology and innovation.
+           Passionate Computer Science & AI student at Egypt Japan University of science and Technology (EJUST) with a CGPA 
+            of 3.4. Expert in building cross-platform mobile applications using Flutter and scalable web solutions using MERN 
+            Stack and PHP/Laravel. Dedicated to integrating AI capabilities (LLMs & Computer Vision) into production-ready 
+            applications to enhance user experience and automate complex workflows.
           </motion.p>
           {/* Btn */}
           <div className='flex justify-center xl:hidden relative '>
