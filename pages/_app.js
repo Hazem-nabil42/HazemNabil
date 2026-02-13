@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Layout className='body'>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://hazem-nabil42.github.io/HazemNabil/favicon.ico" />
       </Head>
       <AnimatePresence mode='wait'>
       <motion.div key={router.route} className='h-full'> {/* motion framer your animation appears for the routing pages */}
