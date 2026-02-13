@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-
+import Head from 'next/head';
 
 //components
 import Layout from '../components/Layout'; //Layout that has the header and nav and the leftImage
