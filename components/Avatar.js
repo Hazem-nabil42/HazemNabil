@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Avatar = () => {
   return <div className='hidden xl:flex xl:max-w-none'>
     <Image 
-    src='https://hazem-nabil42.github.io/HazemNabil/Me.jpeg'
+    src='https://hazem-nabil42.github.io/HazemNabil/me2.jpeg'
     width={637}
     height={578}
     alt='HazemNabil'
