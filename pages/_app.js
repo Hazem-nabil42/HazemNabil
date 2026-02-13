@@ -15,16 +15,12 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
     <Layout className='body'>
-      <Head>
-        <link rel="icon" href="https://hazem-nabil42.github.io/HazemNabil/bulb.png" />
-
           <AnimatePresence mode='wait'>
           <motion.div key={router.route} className='h-full'> {/* motion framer your animation appears for the routing pages */}
             <Transition />  {/* Transition has the delay time for the motion animation also has the layout of the loading screen  */}
             <Component  />    {/* Here is the component EX: Home, about and its context*/}
           </motion.div>
           </AnimatePresence>
-        </Head>
     </Layout>
 
 )}
